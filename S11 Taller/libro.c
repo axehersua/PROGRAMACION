@@ -33,7 +33,7 @@ void mostrarLibros(struct Libro libros[], int n) {
         return;
     }
 
-    printf("\nID | Titulo | Autor | Año | Estado\n");
+    printf("\nID | Titulo | Autor | Year | Estado\n");
     for (int i = 0; i < n; i++) {
         printf("%d | %s | %s | %d | %s\n",
                libros[i].id,
@@ -53,7 +53,7 @@ void buscarLibro(struct Libro libros[], int n) {
         if (libros[i].id == id) {
             printf("Titulo: %s\n", libros[i].titulo);
             printf("Autor: %s\n", libros[i].autor);
-            printf("Año: %d\n", libros[i].anio);
+            printf("Year: %d\n", libros[i].anio);
             printf("Estado: %s\n", libros[i].estado);
             return;
         }
