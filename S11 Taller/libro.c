@@ -94,3 +94,4 @@ void eliminarLibro(struct Libro libros[], int *n) {
     }
     printf("Libro no encontrado.\n");
 }
+    

@@ -9,10 +9,10 @@ struct Libro {
     char titulo[100];
     char autor[50];
     int anio;
-    char estado[10]; // Disponible / Prestado
+    char estado[10]; 
 };
 
-// Prototipos
+
 void registrarLibro(struct Libro libros[], int *n);
 void mostrarLibros(struct Libro libros[], int n);
 void buscarLibro(struct Libro libros[], int n);
